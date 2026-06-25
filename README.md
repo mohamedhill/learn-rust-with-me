@@ -55,3 +55,6 @@ x = ()
 #loops
 
 while , for , loop
+
+
+today i learn as is to covert type from i32 to f64 par example
