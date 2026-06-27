@@ -91,4 +91,76 @@ Input: nums = [1]
 Output: [0]
 Explanation: The array leftSum is [0] and the array rightSum is [0].
 The array answer is [|0 - 0|] = [0].
- 
+ //////////////////////////////////////:
+ # string methods 
+
+
+ push : add one char to last 
+
+ push_str : push sentence 
+
+ let mut s = String::from("Hello");
+
+s.push_str(" World");
+
+println!("{}", s);
+
+
+
+# empty ?
+let s = String::new();
+
+println!("{}", s.is_empty());
+
+remove the last char 
+
+let mut s = String::from("Hello");
+
+s.pop();
+
+println!("{}", s); // Hell
+
+
+remove with index 
+
+
+let mut s = String::from("Hello");
+
+s.remove(1);
+
+println!("{}", s); // Hllo
+
+
+insert with index 
+
+let mut s = String::from("Hllo");
+
+s.insert(1, 'e');
+
+println!("{}", s);
+
+
+add string 
+
+let mut s = String::from("Hello");
+
+s.insert_str(5, " World");
+
+println!("{}", s);
+
+
+remove str 
+
+let mut s = String::from("Hello");
+
+s.clear();
+
+println!("{}", s); // ""
+
+replace 
+
+let s = "Hello World";
+
+let new = s.replace("World", "Rust");
+
+println!("{}", new);
