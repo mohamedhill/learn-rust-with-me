@@ -1,1 +1,0 @@
-/home/mhilli/Desktop/learn-rust-with-me/checkpoint/smallest/target/debug/smallest: /home/mhilli/Desktop/learn-rust-with-me/checkpoint/smallest/src/lib.rs /home/mhilli/Desktop/learn-rust-with-me/checkpoint/smallest/src/main.rs
